@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add nodemon
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Development\bin;C:\Python38\Scripts;C:\Python38;C:\Users\Development\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Users\Development\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\System32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Development\AppData\Local\Microsoft\WindowsApps;C:\Users\Development\AppData\Local\Programs\Python\Python39;C:\Users\Development\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Development\AppData\Local\Programs\Python\Python39;C:\Users\Development\AppData\Local\Microsoft\WindowsApps;C:\Users\Development\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GitHub CLI;C:\Users\Development\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: 26356:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:677:
+
+npm manifest: 
+  {
+    "name": "devconnector",
+    "version": "1.0.0",
+    "description": "Social network for developers",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server",
+      "server": "nodemon server"
+    },
+    "author": "Ahamad",
+    "license": "MIT",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "config": "^3.3.6",
+      "express": "^4.17.1",
+      "express-validator": "^6.12.1",
+      "forever": "^4.0.1",
+      "gravatar": "^1.8.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.13.5",
+      "request": "^2.88.2"
+    },
+    "devDependencies": {
+      "concurrently": "^6.2.0",
+      "nodemon": "^2.0.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
